@@ -1,7 +1,13 @@
 import React from 'react';
+import Hero from './sections/Hero';
 
 const App = () => {
-	return <div className='text-9xl'>App</div>;
+	return (
+		<>
+			<Hero />
+		</>
+	);
 };
 
 export default App;
+
