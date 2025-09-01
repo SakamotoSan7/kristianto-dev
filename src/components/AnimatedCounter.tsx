@@ -27,7 +27,7 @@ const AnimatedCounter = () => {
         snap: { innerText: 1 }, // Ensures whole numbers
         scrollTrigger: {
           trigger: "#counter",
-          start: "top center",
+          start: "top center+=150",
         },
         // Add the suffix after counting is complete
         onComplete: () => {
