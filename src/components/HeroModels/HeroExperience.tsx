@@ -15,7 +15,7 @@ const HeroExperience = () => {
 		<Canvas camera={{ position: [0, 0, 15], fov: 45 }}>
 			<HeroLights />
 
-			<Particles count={100}/>
+			<Particles count={100} />
 
 			<OrbitControls
 				enablePan={false}
@@ -41,7 +41,7 @@ const HeroExperience = () => {
 
 				// MagicRoom
 				scale={isMobile ? 3 : 0.048}
-				position={isMobile ? [-0.1, -3, 0] : [0.5, -3.8, 0]}
+				position={isMobile ? [-0.1, -3, 0] : [0.5, -3.6, 0]}
 				rotation={[0, -Math.PI / 4, 0]}
 			>
 				{/* <Vinnie /> */}
