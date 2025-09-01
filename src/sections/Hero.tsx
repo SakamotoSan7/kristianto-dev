@@ -1,4 +1,5 @@
-import Button from '../components/button';
+import Button from '../components/Button';
+import HeroExperience from '../components/HeroModels/HeroExperience';
 import { words } from '../constants';
 
 function Hero() {
@@ -15,6 +16,7 @@ function Hero() {
 			</div>
 
 			<div className='hero-layout'>
+				{/* Hero Content */}
 				<header className='flex flex-col justify-center md:w-full w-screen md:px-20 px-5'>
 					<div className='flex flex-col gap-7'>
 						<div className='hero-text'>
@@ -41,13 +43,25 @@ function Hero() {
 							<h1>into Real Project</h1>
 							<h1>that Deliver Results</h1>
 						</div>
-						<p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>
-							Hi, I'am Kris, a Developer based in Indonesia with a
-							passion at creating something
+						<p className='text-white-50 md:text-xl relative z-10 pointer-events-none max-w-xl'>
+							Hi, I'm Kris, a developer based in Indonesia with a
+							passion for creating things that make people's lives
+							a whole lot easier.
 						</p>
-						<Button className='md:w-80 md:h-16 w-60 h-12' id='button' text='See my Work'/>
+						<Button
+							className='md:w-80 md:h-16 w-60 h-12'
+							id='button'
+							text='See my Work'
+						/>
 					</div>
 				</header>
+
+				{/* 3D Model */}
+				<figure>
+					<div className='hero-3d-layout'>
+						<HeroExperience />
+					</div>
+				</figure>
 			</div>
 		</section>
 	);
