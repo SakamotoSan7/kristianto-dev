@@ -15,7 +15,7 @@ import { SkeletonUtils } from 'three-stdlib';
 export function Vinnie(props) {
 	const group = React.useRef();
 	const { scene, animations } = useGLTF(
-		'/models/hey_good_lookin_-_vinnie.glb'
+		'/models/mine/hey_good_lookin_-_vinnie.glb'
 	);
 	const clone = React.useMemo(() => SkeletonUtils.clone(scene), [scene]);
 	const { nodes, materials } = useGraph(clone);
@@ -367,5 +367,5 @@ export function Vinnie(props) {
 	);
 }
 
-useGLTF.preload('/models/hey_good_lookin_-_vinnie.glb');
+useGLTF.preload('/models/mine/hey_good_lookin_-_vinnie.glb');
 

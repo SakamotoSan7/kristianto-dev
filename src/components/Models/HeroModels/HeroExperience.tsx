@@ -2,11 +2,11 @@ import { OrbitControls } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
-import { Vinnie } from './Vinnie';
 import { DragonRoom } from './DragonRoom';
 import HeroLights from './HeroLights';
 import { MagicRoom } from './MagicRoom';
 import Particles from './Particles';
+import { Vinnie } from './Vinnie';
 
 const HeroExperience = () => {
 	const isTablet = useMediaQuery({ query: '(max-width: 1024px)' });
@@ -31,10 +31,9 @@ const HeroExperience = () => {
 			/>
 			<group
 				// DragonRoom
-				// scale={isMobile ? 3 : 4.5}
-				// position={isMobile ? [-0.1, -3, 0] : [0, -3.8, 0]}
-				// rotation={[0, -Math.PI / 4, 0]}
-
+				scale={isMobile ? 3 : 4.5}
+				position={isMobile ? [-0.1, -3, 0] : [0, -3.8, 0]}
+				rotation={[0, -Math.PI / 4, 0]}
 				// Vinnie
 				// scale={isMobile ? 2.5 : 3}
 				// position={isMobile ? [-0.1, -3, 0] : [0, -4, 0]}
