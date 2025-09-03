@@ -40,7 +40,7 @@ const HeroExperience = () => {
 				// position={isMobile ? [-0.1, -3, 0] : [0, -4, 0]}
 
 				// MagicRoom
-				scale={isMobile ? 3 : 0.048}
+				scale={isMobile ? 3 : 0.046}
 				position={isMobile ? [-0.1, -3, 0] : [0.5, -3.6, 0]}
 				rotation={[0, -Math.PI / 4, 0]}
 			>
