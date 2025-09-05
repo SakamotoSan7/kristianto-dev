@@ -1,69 +1,48 @@
-# React + TypeScript + Vite
+# kristianto-dev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hey, I’m Kristianto! 👋  
+Welcome to my 3D Portfolio website—a personal project where creativity meets cutting-edge web tech. Whether you’re a developer, designer, or freelancer, this site is built to help you (and me!) stand out in the digital crowd.
 
-Currently, two official plugins are available:
+## 🌟 Introduction
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This isn’t just another portfolio. It’s a highly engaging site packed with animated 3D scenes, smooth camera transitions, interactive model showcases, and a fully responsive design. My goal? To showcase my work and passion for modern web development in a way that’s both fun and professional.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+-   **Three.js**
+-   **React Three Fiber**
+-   **Drei**
+-   **GSAP**
+-   **Tailwind CSS**
+-   **Vite**
+-   **React 19**
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🔋 Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+Here’s what you’ll find inside:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+-   👉 Animated 3D models & reveal animations
+-   👉 Realistic lighting and shadows
+-   👉 GSAP-powered scroll interactions
+-   👉 Responsive design with Tailwind CSS & Flexbox/Grid
+-   👉 Micro interactions for extra polish
+-   👉 Multi-section layout (About, Projects, Contact)
+-   👉 Mobile-optimized 3D experience
+-   👉 Clean code architecture & reusable components
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+…and plenty more under the hood!
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 👨‍💻 About the Creator
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Hi, I’m **Kristianto**! I’m a passionate developer who loves crafting seamless, modern, and enjoyable user experiences—especially in the realm of movies and entertainment. This portfolio is a playground for my curiosity and creativity, built with the latest web technologies to push the boundaries of what’s possible on the web. I enjoy experimenting with tools like React, Three.js, and GSAP to bring ideas to life in interactive and visually engaging ways. If you’re interested in collaborating or just want to chat about web development, feel free to reach out and Thanks for stopping by!
+
+---
+
+## 📫 Contact
+
+-   **Email**: inikristiantoitu@gmail.com
+-   **LinkedIn**: [Kristianto](https://www.linkedin.com/in/kristianto-9117)
+-   **GitHub**: [SakamotoSan7](https://github.com/SakamotoSan7)
+
+---
+
