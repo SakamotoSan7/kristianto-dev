@@ -31,9 +31,9 @@ const HeroExperience = () => {
 			/>
 			<group
 				// DragonRoom
-				scale={isMobile ? 3 : 4.5}
-				position={isMobile ? [-0.1, -3, 0] : [0, -3.8, 0]}
-				rotation={[0, -Math.PI / 4, 0]}
+				// scale={isMobile ? 3 : 4.5}
+				// position={isMobile ? [-0.1, -3, 0] : [0, -3.8, 0]}
+				// rotation={[0, -Math.PI / 4, 0]}
 				// Vinnie
 				// scale={isMobile ? 2.5 : 3}
 				// position={isMobile ? [-0.1, -3, 0] : [0, -4, 0]}

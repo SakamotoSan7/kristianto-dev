@@ -193,7 +193,7 @@ section {
 			}
 
 			img {
-				@apply w-full h-full object-contain ;
+				@apply w-full h-full object-contain;
 			}
 
 			h2 {
@@ -235,7 +235,7 @@ section {
 	}
 
 	.marquee-item {
-		@apply md:w-40 w-32;
+		@apply md:w-10 w-6;
 	}
 
 	.timeline-wrapper {
@@ -396,10 +396,10 @@ section {
 
 /* marquee */
 .marquee {
-	width: 100dvw;
 	overflow: hidden;
 	position: relative;
 }
+
 .marquee-box {
 	display: flex;
 	align-items: center;
@@ -407,7 +407,7 @@ section {
 	height: 100%;
 	position: absolute;
 	overflow: hidden;
-	animation: marquee 60s linear infinite;
+	animation: marquee 50s linear infinite;
 }
 .marquee-item {
 	float: left;
