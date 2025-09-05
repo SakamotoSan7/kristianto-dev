@@ -10,7 +10,7 @@ import { Vinnie } from './Vinnie';
 
 const HeroExperience = () => {
 	const isTablet = useMediaQuery({ query: '(max-width: 1024px)' });
-	const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
+	const isMobile = useMediaQuery({ query: '(max-width: 640px)' });
 	return (
 		<Canvas camera={{ position: [0, 0, 15], fov: 45 }}>
 			<HeroLights />
@@ -21,7 +21,7 @@ const HeroExperience = () => {
 				enablePan={false}
 				enableDamping={true}
 				dampingFactor={0.05}
-				enableZoom={!isTablet}
+				enableZoom={isMobile ? true : false}
 				maxDistance={20}
 				minDistance={5}
 				maxPolarAngle={Math.PI / 2}
@@ -39,8 +39,8 @@ const HeroExperience = () => {
 				// position={isMobile ? [-0.1, -3, 0] : [0, -4, 0]}
 
 				// MagicRoom
-				scale={isMobile ? 3 : 0.04}
-				position={isMobile ? [-0.1, -3, 0] : [0.5, -3.6, 0]}
+				scale={isMobile ? 0.018 : isTablet ? 0.035 : 0.042}
+				position={isMobile ? [0, -2, 0] : [0, -3, 0]}
 				rotation={[0, -Math.PI / 4, 0]}
 			>
 				{/* <Vinnie /> */}
