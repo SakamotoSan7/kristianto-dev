@@ -42,8 +42,8 @@ const TechStack = () => {
 		>
 			<div className='w-full h-full md:px-10 px-5'>
 				<TitleHeader
-					title='How I Can Contribute & My Key Skills'
-					sub='🤝 What I Bring to the Table'
+					title='How I Make an Impact'
+					sub='🤝 The Value I Can Add'
 				/>
 				<div className='tech-grid'>
 					{/* Loop through the techStackIcons array and create a component for each item. 
@@ -62,9 +62,7 @@ const TechStack = () => {
 								{/* The tech-icon-wrapper div contains the TechIcon component, 
                     which renders the 3D model of the tech stack icon. */}
 								<div className='tech-icon-wrapper'>
-									<TechIcon
-										model={techStackIcon}
-									/>
+									<TechIcon model={techStackIcon} />
 								</div>
 								{/* The padding-x and w-full classes are used to add horizontal padding to the 
                     text and make it take up the full width of the component. */}

@@ -61,9 +61,9 @@ function Hero() {
 							<h1>that Deliver Value</h1>
 						</div>
 						<p className='text-white-50 md:text-xl relative z-10 pointer-events-none max-w-xl'>
-							Hi, I'm Kris, a developer based in Indonesia with a
-							passion for creating things that make people's lives
-							a whole lot easier.
+							Hi, I'm Kristianto, a developer based in Indonesia,
+							passionate about crafting solutions that actually
+							help people.
 						</p>
 						<Button
 							className='md:w-80 md:h-16 w-60 h-12'

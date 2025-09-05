@@ -147,15 +147,15 @@ const techStackIcons = [
 
 const expCards = [
 	{
-		review: 'Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.',
+		review: 'Kristianto was really careful and thorough when handling the land certificate data. He double-checked everything and made sure there were no mistakes, which really helped the project run smoothly.',
 		imgPath: '/images/me/exp-1.png',
 		logoPath: '/images/me/logo-exp-1.png',
-		title: 'Frontend Developer',
-		date: 'January 2023 - Present',
+		title: 'Data Entry & Validation',
+		date: '2021',
 		responsibilities: [
-			'Developed and maintained user-facing features for the Hostinger website.',
-			'Collaborated closely with UI/UX designers to ensure seamless user experiences.',
-			'Optimized web applications for maximum speed and scalability.',
+			'Validated the completeness and authenticity of land certificate data in Jambi City before uploading it to the system.',
+			'Cross-checked physical documents with the digital database to ensure there were no duplicates or input errors.',
+			'Prepared daily reports and provided data correction recommendations to the project manager.',
 		],
 	},
 	// {
@@ -240,19 +240,13 @@ const testimonials = [
 
 const socialImgs = [
 	{
-		name: 'insta',
-		imgPath: '/images/insta.png',
-	},
-	{
-		name: 'fb',
-		imgPath: '/images/fb.png',
-	},
-	{
-		name: 'x',
-		imgPath: '/images/x.png',
+		name: 'github',
+		url: 'https://github.com/SakamotoSan7',
+		imgPath: '/images/me/github.png',
 	},
 	{
 		name: 'linkedin',
+		url: 'https://www.linkedin.com/in/kristianto-9117',
 		imgPath: '/images/linkedin.png',
 	},
 ];
