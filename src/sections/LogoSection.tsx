@@ -10,24 +10,12 @@ const LogoIcon = ({ icon }) => {
 
 const LogoSection = () => {
 	return (
-		<div className='relative md:mb-25 md:mt-8 mb-15 mt-3'>
+		<div className='relative md:mb-23 md:mt-6 mb-12 mt-2'>
 			<div className='gradient-edge' />
 			<div className='gradient-edge' />
 
-			<div className='marquee md:w-[131dvw] w-[114dvw] h-28'>
-				<div className='marquee-box md:gap-4 gap-3'>
-					{logoIconsList.map((icon) => {
-						return <LogoIcon icon={icon} />;
-					})}
-
-					{logoIconsList.map((icon) => {
-						return <LogoIcon icon={icon} />;
-					})}
-
-					{logoIconsList.map((icon) => {
-						return <LogoIcon icon={icon} />;
-					})}
-
+			<div className='marquee md:w-[125dvw] w-[105dvw] h-28'>
+				<div className='marquee-box md:gap-6 gap-2'>
 					{logoIconsList.map((icon) => {
 						return <LogoIcon icon={icon} />;
 					})}
