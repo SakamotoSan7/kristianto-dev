@@ -67,8 +67,16 @@ const ShowcaseSection = () => {
 						</div>
 						<div className='text-content'>
 							<h2>
-								IGNITER — A Minimalist Next.js Platform for
-								Startup Pitches & Entrepreneurial Collaboration.
+								<a
+									href='https://igniter-theta.vercel.app/'
+									className='underline'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
+									IGNITER
+								</a>{' '}
+								— A Minimalist Next.js Platform for Startup
+								Pitches & Entrepreneurial Collaboration.
 							</h2>
 							<p className='text-white-50 md:text-xl'>
 								Built with Next.js 15, TailwindCSS, and Sanity,

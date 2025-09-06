@@ -20,6 +20,7 @@ const Footer = () => {
 							className='icon'
 							href={socialImg.url}
 							target='_blank'
+							rel='noopener noreferrer'
 						>
 							<img
 								src={socialImg.imgPath}
